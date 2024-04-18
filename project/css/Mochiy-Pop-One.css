@@ -1,0 +1,9 @@
+@font-face {
+    font-family:'Mochiy-Pop-One';
+    src: url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One-Regular.eot');
+	src: url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One-Regular.woff2') format('woff2'),
+		url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One-Regular.woff') format('woff'),
+		url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One-Regular.ttf') format('truetype'),
+		url('../fonts/Mochiy-Pop-One/Mochiy-Pop-One.svg#Mochiy-Pop-One') format('svg');
+}
