@@ -10,6 +10,7 @@
         background:#f1f1f1;
     }  
     .wrapper{    
+        width: auto;
         min-height:100%;
         display: flex;
         flex-direction: column;
@@ -26,8 +27,22 @@
         top: 99px;
         position: sticky;
         padding: 15px;
-        background:#f1f1f1;
-              
+        background:#634e4e;          
+    }   
+    .nav-ul{
+        vertical-align: middle;
+    }
+    .nav-li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 60px;
+    }
+    .nav-li-text{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        color: black;
+        text-decoration-line: none;
     }
     section{
         flex: 1 0 auto;
@@ -35,7 +50,7 @@
         border: solid 1px black;  
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     footer{
         padding: 50px;

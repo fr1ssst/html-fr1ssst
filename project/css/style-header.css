@@ -4,58 +4,75 @@
     padding: 0%;
     margin: 0%;
 }
-header{
-    top: 0;
-    position: sticky;
-    padding: 10px;
-    
-    background:#ffffff;
-    border: solid 1px black; 
-}
+
 .header-div-wrapper{
-    width: auto;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
 }
-.div-header-left-wrapper{
+.header-div-left-wrapper{
     width: 20%;
-    left: 0;
-    margin-left: auto;
+    float: left;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-div-center-wrapper{
+    width: 60%;
     display: flex;
     flex-direction: row;
-}
-.div-header-center-wrapper{
-    width: 80%;
-    display: flex;
+
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
 }
-.div-header-right-wrapper{
-    width: 20%;
-    right: 0;
+.header-div-right-wrapper{
+    width: 40%;
+    float: right;
     display: flex;
+
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
 }
-.div-header-wrapper-icons{
+.header-ul{
+    vertical-align: middle;
+}
+.header-li{
+    list-style-type: none;
     display: inline;
-    margin-top: 40px;
+    padding-right: 60px;
 }
-.div-header-text{
+.header-li-text{
     font-family: "Rounded-Mplus-Bold",  sans-serif;
     font-style: normal;
     font-size: 20px;
-    padding-right: 60px;
     color: black;
     text-decoration-line: none;
 }
-.div-header-logo{
+.header-icons{
+    line-height: 3;
+}
+.header-logo{
     width: 210px;
     height: 120px;
     padding-right: 40px;
 }
-.div-header-button{
+.header-button{
     background-color: black;
     border: none;
-    padding: 15px 48px;
+    padding: 10px 48px;
     border-radius: 12px;
     transition-duration: 0.4s;
 
@@ -68,12 +85,23 @@ header{
     font-family: "Rounded-Mplus-Bold",  sans-serif;
     margin: auto;
 }
-  .button-signUp {
+.button-signUp {
     background-color: black; 
-  }
-  
-  .button-signUp:hover {
+}
+.button-signUp:hover {
     background-color: #747272;
     color: white;
-  }
+}
+.header-li-logIn{
+    font-family: "Rounded-Mplus-Bold",  sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: black;
+    text-decoration-line: none;
+}
+.header-li-button{
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+}
   
