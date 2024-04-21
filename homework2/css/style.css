@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after{
+    padding: 0%;
+    margin: 0%;
+}
+    html,
+    body{
+        height: 100%;
+    }  
+    .wrapper{    
+        width: auto;
+        margin: 0 auto;
+        min-height:100%;
+        display: flex;
+        flex-direction: column;
+    } 
+    @media screen and (min-width: 600px) {
+        .wrapper {
+          width: 100%; /* При адаптації розмірів екрана, змінюємо ширину на 100% */
+        }
+    }
+    header{
+        background:#202846;
+        display: flex;
+        flex-direction: row;
+
+        
+        font-family: "PTSansBold", sans-serif;
+    }
+    nav{
+        top: 99px;
+        position: sticky;
+        padding: 25px;
+        background:#C6C6DC;          
+    }   
+    nav .text{
+        font-style: oblique;
+        font-size: 25px;
+        margin-left: 30px;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    section{
+        flex: 1 0 auto;
+        background:#dad9d9;    
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family:"PTSansBold", sans-serif;
+    }
+    footer{
+        padding: 50px;
+        background:#202846;
+        display: flex;
+        flex-direction: row;
+        font-family:"PTSansBold", sans-serif;
+    } 
+    footer .text{
+        font-style:italic;
+        font-size: 15px;
+        color: #ffffff;
+    }

@@ -7,7 +7,6 @@
     html,
     body{
         height: 100%;
-        background:#f1f1f1;
     }  
     .wrapper{    
         width: auto;
@@ -15,14 +14,13 @@
         display: flex;
         flex-direction: column;
     } 
-    .header-page{
-        top: 0;
-        position: sticky;
-        padding: 30px;
-        
-        background:#ffffff;
-        border: solid 1px black; 
-    }    
+    header{
+        background:#f1f1f1;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        border-radius: 12px;
+    }
     nav{
         top: 99px;
         position: sticky;
@@ -46,15 +44,14 @@
     }
     section{
         flex: 1 0 auto;
-        background:#ffffff;
-        border: solid 1px black;  
+        background:#ffffff;    
 
         display: flex;
         flex-direction: column;
     }
     footer{
         padding: 50px;
-        background:#ffffff;
+        background:#f1f1f1;
     } 
     .sidebar-inner-nav{
         left: 0;
