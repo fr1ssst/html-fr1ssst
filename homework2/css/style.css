@@ -1,3 +1,13 @@
+@media only screen and (max-width:1920px) {
+    body, header{
+      width:100%;
+    }
+  }
+  @media only screen and (max-width:2048px) {
+    body, header{
+        width:100%;
+      }
+  }
 *,
 *::before,
 *::after{
@@ -42,7 +52,7 @@
     }
     section{
         flex: 1 0 auto;
-        background:#dad9d9;    
+        background:#DCDCDC;    
 
         display: flex;
         flex-direction: column;
