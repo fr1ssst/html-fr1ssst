@@ -1,9 +1,0 @@
-@font-face {
-    font-family:'Rounded-Mplus-Bold';
-    src: url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.eot');
-	src: url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.woff2') format('woff2'),
-		url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.woff') format('woff'),
-		url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.ttf') format('truetype'),
-		url('../fonts/Rounded-Mplus-Bold/Rounded-Mplus-Bold.svg#Rounded-Mplus-Bold') format('svg');
-}
