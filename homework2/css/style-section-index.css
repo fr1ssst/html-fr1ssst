@@ -1,0 +1,126 @@
+@media only screen and (max-width:1920px) {
+  .container-one, .container-two, .container-three, .container-two .test, .container-four {
+    width:100%;
+  }
+}
+@media only screen and (max-width:2048px) {
+  .container-one, .container-two, .container-three, .container-four {
+    width:100%;
+  }
+}
+div .container-one{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align:end;
+  border-radius: 12px;
+}
+.container-one img{
+  opacity: 80%;
+  width: 80%;
+  height: 100%;
+}
+.container-one h1 {
+  margin-bottom: 30px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+}
+.container-one h2 {
+  margin-top: 75px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+div .container-two{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align:end;
+  border-radius: 12px;
+}
+.container-two img{
+  width: 80%;
+  height: 100%;
+  opacity: 90%;
+}
+div .container-two .test {
+  margin-top: 40px;
+  max-width: 600px;
+  max-height: 100px;
+  background-color: rgba(196, 196, 196, 0.705);
+  position: absolute;
+  margin-right: 205px;
+  margin-top: 480px;
+  border-radius: 12px;
+}
+.container-two p {
+    display: inline-block;
+    max-width: 700px;
+    height: 100px;
+    text-align: left;
+    padding-top: 20px;
+}
+div .container-three{
+  margin-top: 40px;
+  max-width: 80%;
+  height: 500px;
+  background-color: rgba(193, 193, 195, 0.9);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align:end;
+  border-radius: 12px;
+}
+div .container-four{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 20%;
+  height: 200px;
+  background-color: rgba(242, 238, 238, 1);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 12px;
+}
+.container-four p.first-text{
+  font-size: 20px;
+  
+}
+.container-four p.second-text{
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.container-four input{
+  margin-left: 5px;
+  height: 20px;
+}
+.container-four button{
+  max-width: 200px;
+  height: 40px;
+  background-color: rgba(68, 71, 101, 1);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.container-four button:hover{
+  background-color: #9a94a8;
+  color: white;
+}

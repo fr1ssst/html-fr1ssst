@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en", lang="uk">
+    <head>
+        <title>Карпати</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css"/> 
+        <link rel="stylesheet" href="./css/style-header.css"/>
+        <link rel="stylesheet" href="./css/style-section-reserv-karpaty.css"/>
+        <link rel="stylesheet" href="./css/PTSansBold.css">
+        <script src="https://kit.fontawesome.com/ad96a20120.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="wrapper">
+                    <div class="header-left-wrapper">
+                        <img class="header-logo" src="./img/logo.png" alt="Logo">
+                    </div> 
+                    <div class="center-wrapper">
+                            <ul>
+                                <li class="center">  
+                                    <a class="text" href="index.html">Головна</a>
+                                </li>
+                                <li class="center">
+                                    <a class="text" href="about-us.html">Про нас</a>
+                                </li>
+                                <li class="center">
+                                    <a class="text" href="reserv.html">Забронювати</a>
+                                </li>
+                                <li class="center">
+                                    <a class="text" href="contacts.html">Контакти</a>
+                                </li>     
+                                <li class="center text-2colomn">
+                                    <a class="text" href="profile.html">Особистий кабінет </a>
+                                </li>
+                            </ul>
+                    </div>            
+                    <div class="right-wrapper">
+                        <ul">
+                            <li class="right">
+                                <i class="header-icons fa-solid fa-globe"></i>   
+                                <a class="text" href="">UA</a>                     
+                            </li>
+                        </ul>                      
+                    </div>   
+                </div>
+            </header>  
+            <nav> 
+                <p class="text">Бронювання будиночока в Карпатах</p>
+            </nav>
+            <section>
+                <div class="container-one">
+                    <button onclick="history.back()">← Назад</button>
+                </div>
+                <div class="container-two">
+                    <div class="left">
+                        <img class="one" src="./img/imgTwo.png" alt="">
+                        <img class="two" src="./img/imgFour.png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="right-up">
+                            <p>Затишні дерев’яні будиночки, які заховались на окраїні лісу, зустрічатимуть Вас чудовим краєвидом на ранкові полонини.</p>
+                            <p style="padding-top: 20px;">Ви можете обрати кількість кімнат та місце, яке буде ідеальним для Вас. Територія, на якій базуються будиночки, підійде як і для великих компаній, яким потрібно бути поряд у декількох будинках, так і для пар, які хочуть бути на одинці.</p>                                 
+                        </div>
+                        <div class="right-down">
+                            <img class="one" src="./img/imgFive.png" alt="">
+                            <img class="two" src="./img/imgSix.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h1 style="padding-top: 20px; font-size: 38px;">Наявність місць</h1>
+                <div class="container-three">
+                    <div class="wrapper">
+                        <p>Коли б Ви хотіли зупинись в помешканні Полонини Карпат?</p>
+                        <div class="wrapper-center">
+                            <div>
+                                <p>Дата заїзду</p>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                            </div>
+                            <div style="padding-left: 50px;">
+                                <p>Дата виїзду</p>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                <button>Перевірити наявність вільних місць</button>
+                            </div>         
+                        </div>
+                        <div class="wrapper-bottom">
+                            <ul>
+                                <li>
+                                    <p>Номери</p>
+                                    <input type="number" id="room-num" name="room-num" min="1" max="5" value="1">
+                                </li>
+                                <li>
+                                    <p>Дорослі</p>
+                                    <input type="number" id="room-num" name="room-num" min="1" max="4" value="2">
+                                </li>
+                                <li>
+                                    <p>Діти</p>
+                                    <input type="number" id="room-num" name="room-num" min="0" max="5" value="0">
+                                </li>
+                            </ul>
+                        </div>                                
+                    </div>                  
+                </div>
+                <div class="container-four">
+                    <table>
+                        <tr class="colomn">
+                          <th class="colomn">Вміщує</th>
+                          <th class="colomn">Тип розміщення</th>
+                          <th class="colomn">Ціна</th>
+                        </tr>
+                        <tr class="row">
+                          <th style="width: 200px;" class="row"><i class="fa-solid fa-children"></i></th>
+                          <th class="row">Двомісний номер  1 широке двоспальне ліжко <i class="fa-solid fa-bed"></i></th>
+                          <th class="row"><button>Показати ціни</button></th>
+                        </tr>
+                      </table>
+                    
+                </div>
+            </section>
+            <footer>
+                <p class="text">©2024 HolidayTime. All rights reserved.</p>
+            </footer>
+        </div>
+
+    </body>
+</html>
