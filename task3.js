@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 let num = prompt("Enter a number: ");
 
 if (num % 2 == 0) {
-    console.log("Число " + num + " є парним")
+    console.log("Number " +num + " even")
 }else {
-    console.log("Число " + num + " є не парним")
+    console.log("Number " + num + " not even")
 }
