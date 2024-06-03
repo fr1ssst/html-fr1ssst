@@ -1,0 +1,172 @@
+[
+   {
+	"id": 2,
+    "soloist": "Serj Tankian",
+    "bandName": "SOAD",
+    "fullBandName": "(System Of A Down)",
+    "followersYTMusic": "7093342",
+    "icon": "https://static.posters.cz/image/750/%D0%9D%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B0/system-of-a-down-logo-i7795.jpg",
+    "participants": ["Serj Tankian", "Shavo Odadjian", "Daron Vartan Malakian", "John Dolmayan"],
+    "tracks": [
+        {
+            "iconTrack": "/image/soad/Lonelyday.jpg",
+            "source": "",
+            "name": "Lonely Day",
+            "duration": 167
+        },
+        {
+            "iconTrack": "/image/soad/ChopSueyEurope.jpg",
+            "source": "",
+            "name": "Chop Suey!",
+            "duration": 212
+        },
+        {
+            "iconTrack": "/image/soad/Sugar.jpg",
+            "source": "",
+            "name": "Sugar",
+            "duration": 153
+        },
+        {
+            "iconTrack": "/image/soad/Toxicity.jpg",
+            "source": "",
+            "name": "Toxicity",
+            "duration": 219
+        }]
+   },
+   {
+	"id": 3,
+	"soloist": "James Alan Hetfield",
+	"bandName": "Metallica",
+	"fullBandName": "",
+	"followersYTMusic": "10504322",
+	"icon": "https://seeklogo.com/images/M/Metallica-logo-42A3DC5618-seeklogo.com.png",
+	"participants": ["Kirk Lee Hammett", "James Alan Hetfield", "Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz", "Lars Ulrich"],
+	"tracks": [
+	   {
+		   "iconTrack": "/image/metallica/Master of Puppets.jpg",
+	       "source": "/mp3/metallika/Master Of Puppets.mp3",
+		   "name": "Master of Puppets",
+		   "duration": 313
+	   },
+	   {
+		"iconTrack": "/image/metallica/Fuel.jpg",
+		"source": "/mp3/metallika/Fuel.mp3",
+		   "name": "Fuel",
+		   "duration": 270
+	   },
+	   {
+		"iconTrack": "/image/metallica/The Unforgiven.jpg",
+	   "source": "/mp3/metallika/The Unforgiven.mp3",
+		   "name": "The Unforgiven",
+		   "duration": 386
+	   },
+	   {
+		"iconTrack": "/image/metallica/Nothing Else Matters.jpg",
+	   "source": "/mp3/metallika/Nothing Else Matters.mp3",
+		   "name": "Nothing Else Matters",
+		   "duration": 243
+	   }]
+  	},
+	{
+		"id": 5,
+		"soloist": "2D",
+		"bandName": "Gorillaz",
+		"fullBandName": "",
+		"followersYTMusic": "10956434", 
+		"icon": "https://placehold.co/600x400?text=Gorillaz",
+		"participants": ["Murdoc Niccals", "2D", "Russel Hobbs", "Noodle"],
+		"tracks": [
+		  {
+			"iconTrack": "/image/gorillaz/Kids with Guns.jpg",
+	   		"source": "/mp3/gorillaz/Kids with Guns.mp3",
+		   "name": "Kids with Guns",
+		   "duration": 226
+		  },
+		  {
+			"iconTrack": "/image/gorillaz/Feel Good Inc.jpg",
+	   "source": "/mp3/gorillaz/Feel Good Inc.mp3",
+		   "name": "Feel Good Inc",
+		   "duration": 222
+		  },
+		  {
+			"iconTrack": "/image/gorillaz/Clint Eastwood.jpg",
+	   "source": "/mp3/gorillaz/Clint Eastwood.mp3",
+		   "name": "Clint Eastwood",
+		   "duration": 269
+		  },
+		  {
+			"iconTrack": "",
+	   "source": "",
+			"name": "",
+			"duration": 0
+		   }]
+	},
+	{
+		"id": 12,
+		"soloist": "Kurt Donald Cobain",
+		"bandName": "Nirvana",
+		"fullBandName": "",
+		"followersYTMusic": "9394351", 
+		"icon": "https://static.posters.cz/image/750/%D0%9D%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B0/nirvana-smiley-logo-i7802.jpg",
+		"participants": ["Kurt Donald Cobain", "Krist Anthony Novoselić", "", "David Eric Grohl"],
+		"tracks": [
+		  {
+			"iconTrack": "/image/nirvana/Smells Like Teen Spirit.jpg",
+	   "source": "/mp3/nirvana/Nirvana - Smells Like Teen Spirit.mp3",
+		   "name": "Smells Like Teen Spirit",
+		   "duration": 301
+		  },
+		  {
+			"iconTrack": "/image/nirvana/Come As You Are.jpg",
+	   		"source": "/mp3/nirvana/Come As You Are.mp3",
+		    "name": "Come As You Are",
+		    "duration": 228
+		  },
+		  {
+			"iconTrack": "/image/nirvana/Heart-Shaped Box.jpg",
+	   		"source": "/mp3/nirvana/Heart-Shaped Box.mp3",
+		    "name": "Heart-Shaped Box",
+		    "duration": 279
+		  },
+		  {
+			"iconTrack": "/image/nirvana/Lithium.jpg",
+	   "source": "/mp3/nirvana/Lithium.mp3",
+			"name": "Lithium",
+			"duration": 257
+		   }]
+	},
+	{
+		"id": 23,
+		"soloist": "Francis Albert Sinatra",
+		"bandName": "Frank Sinatra",
+		"fullBandName": "",
+		"followersYTMusic": "2314353", 
+		"icon": "https://seeklogo.com/images/F/frank-sinatra-logo-0D50EC75D0-seeklogo.com.png",
+		"participants": ["Francis Albert Sinatra", "", "", ""],
+		"tracks": [
+		  {
+			"iconTrack": "/image/frank-sinatra/Strangers in the Night.jpg",
+	   "source": "/mp3/sinatra/Strangers In The Night.mp3",
+		   "name": "Strangers in the Night",
+		   "duration": 145
+		  },
+		  {
+			"iconTrack": "/image/frank-sinatra/Downtown.jpg",
+	   "source": "/mp3/sinatra/Downtown.mp3",
+		   "name": "Downtown",
+		   "duration": 135
+		  },
+		  {
+			"iconTrack": "/image/frank-sinatra/The Girl from Ipanema.jpg",
+	   "source": "/mp3/sinatra/The Girl From Ipanema.mp3",
+		   "name": "The Girl from Ipanema",
+		   "duration": 180
+		  },
+		  {
+			"iconTrack": "/image/frank-sinatra/Change Partners.jpg",
+	   "source": "/mp3/sinatra/Change Partners.mp3",
+			"name": "Change Partners",
+			"duration": 160
+		   }]
+	}
+ ]

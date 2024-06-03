@@ -1,0 +1,178 @@
+body{
+    display: block;
+    position: center;
+      font-family: 'Space Mono', monospace;
+      background-color: rgb(240, 244, 247);
+      background: linear-gradient(147deg, #1c5c36 0%, #000000 85%);
+    
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Background circles start */
+  .circle {
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(120deg, #1D976C, #2c3e50);
+  }
+  .circles {
+    position: absolute;
+    height: 270px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .circle-1 {
+    height: 300px;
+    width: 300px;
+    top: 30px;
+    left: -30px;
+    opacity: 0.8;
+    animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    animation-iteration-count: infinite;
+    animation-name: float;
+    -webkit-animation-name: float;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    animation-direction: alternate;
+    
+  }
+  
+  .circle-2 {
+    height: 240px;
+    width: 240px;
+    bottom: 100px;
+    right: -75px;
+    opacity: 0.8;
+    animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    animation-iteration-count: infinite;
+    animation-name: float;
+    -webkit-animation-name: float;
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+  }
+  /* ANIMATIONS */
+  @keyframes explode {
+   0% { opacity: 1; }
+   100% { transform: scale(1.2); opacity: 0; }
+  }
+  @keyframes float {
+  
+    0% {
+
+      -webkit-transform: rotateX(0deg) translateY(0px);
+      -moz-transform: rotateX(0deg) translateY(0px);
+      -ms-transform: rotateX(0deg) translateY(0px);
+      -o-transform: rotateX(0deg) translateY(0px);
+      transform: rotateX(0deg) translateY(0px);
+      }
+  
+    50% {
+      -webkit-transform: rotateX(0deg) translateY(1px) translateX(5px);
+      -moz-transform: rotateX(0deg) translateY(10px) translateX(5px);
+      -ms-transform: rotateX(0deg) translateY(30px) translateX(5px);
+      -o-transform: rotateX(0deg) translateY(40px) translateX(5px);
+      transform: rotateX(0deg) translateY(10px) translateX(5px);
+  }
+    100% {
+
+      -webkit-transform: rotateX(0deg) translateY(0px) translateX(1px);
+      -moz-transform: rotateX(0deg) translateY(0px) translateX(1px);
+      -ms-transform: rotateX(0deg) translateY(0px) translateX(1px);
+      -o-transform: rotateX(0deg) translateY(0px) translateX(1px);
+      transform: rotateX(0deg) translateY(0px) translateX(1px);
+    }
+  
+  }
+  .musicPlayer-box{
+    display:flex;
+    height: auto;
+    width: 420px;
+    position: absolute;
+    top: 57%;
+    left: 800px;
+    transform: translate(-60%,-60%);
+  
+  }
+  .musicPlayer-box nav{
+    margin-left: 60%;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  .musicPlayer-box nav .button-new-song{
+    background-color:rgb(29, 199, 241);
+    height: 30px;
+
+
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  .mdl{
+    height: auto;
+    width: 420px;
+    position: absolute;
+    top: 57%;
+    left:40%;
+    transform: translate(-60%,-60%);
+  }
+  .card {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(35px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+  }
+  .card nav{
+    color: aliceblue;
+  }
+  .card nav .button-new-band{
+    background-color:rgb(29, 199, 241);
+    height: 30px;
+
+
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  .card nav .button-deleted-band{
+    background-color:rgb(255, 0, 0);
+    height: 30px;
+
+
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logo{
+    display: inline-flex;
+    opacity: 0.9;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  } 
+  
+  .group{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .logo img {
+    max-width: 80px;
+}
+.logo h3 {
+  padding-left: 20px;
+}
+

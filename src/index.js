@@ -1,7 +1,7 @@
 import "./css/style.css";
-import "./js/dom-index.js";
 
-import data from "./data/database.json";
+import "./js/index/dom-index";
+import data from "./data/n_bands.json";
 
 console.log("Hello! Test complited!");
 console.log("Add JSON:", data);

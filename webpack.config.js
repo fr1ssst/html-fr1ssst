@@ -4,7 +4,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: 'development',
-  entry: ["@babel/polyfill", path.resolve(__dirname, 'src', 'index.js')],//Start build with "src/index.js"
+  entry: {
+    main: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+    band: ['@babel/polyfill', path.resolve(__dirname, 'src', 'band.js')]
+  },
   output:{
     path: path.resolve(__dirname, 'build'),
     filename: 'js/[contenthash:8].js',//Downloading js files to the js folder when building the project
@@ -17,11 +20,21 @@ module.exports = {
     port: 9000
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './public/index.html' }), //Loading the main page
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: './public/index.html',
+      chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'band.html',
+      template: './public/band.html',
+      chunks: ['band']
+    }),
     new MiniCssExtractPlugin({
       filename: 'css/[contenthash:8].css',//Downloading css files to the css folder when building the project
       chunkFilename: 'css/[contenthash:8].css',//Downloading css chunkFile to the css folder when building the project
     }),
+
   ],
   module: {
     rules: [
