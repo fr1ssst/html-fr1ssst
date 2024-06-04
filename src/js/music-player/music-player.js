@@ -1,6 +1,5 @@
 import data from "../../data/n_bands.json";
 
-
 const progress = document.getElementById("progress");
 const song = document.getElementById("song");
 const controlIcon = document.getElementById("controlIcon");

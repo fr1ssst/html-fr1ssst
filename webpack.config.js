@@ -6,7 +6,6 @@ module.exports = {
   mode: 'development',
   entry: {
     main: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
-    band: ['@babel/polyfill', path.resolve(__dirname, 'src', 'band.js')]
   },
   output:{
     path: path.resolve(__dirname, 'build'),
@@ -24,11 +23,6 @@ module.exports = {
       filename: 'index.html',
       template: './public/index.html',
       chunks: ['main']
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'band.html',
-      template: './public/band.html',
-      chunks: ['band']
     }),
     new MiniCssExtractPlugin({
       filename: 'css/[contenthash:8].css',//Downloading css files to the css folder when building the project
