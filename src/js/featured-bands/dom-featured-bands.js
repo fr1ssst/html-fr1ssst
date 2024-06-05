@@ -8,10 +8,7 @@ const recommendedBands = document.createElement('div');
 recommendedBands.innerHTML = `
 <div class="artists">
     <h1>Featured Bands</h1>
-        <div class="artist-container containers" id="band-container">
-            <!-- Artist -->
-            
-        </div>
+        <div class="artist-container containers" id="band-container"></div>
 </div>
 `;
 

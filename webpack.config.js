@@ -6,6 +6,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+    band: ['@babel/polyfill', path.resolve(__dirname, 'src', 'band.js')],
     logIn: ['@babel/polyfill', path.resolve(__dirname, 'src', 'formLogIn.js')]
   },
   output:{
@@ -24,6 +25,11 @@ module.exports = {
       filename: 'index.html',
       template: './public/index.html',
       chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'band.html',
+      template: './public/band.html',
+      chunks: ['band']
     }),
     new HtmlWebpackPlugin({
       filename: 'logIn.html',

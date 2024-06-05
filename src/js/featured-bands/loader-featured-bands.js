@@ -14,19 +14,36 @@ function idObj(id, objA) {
     let classBox = document.getElementById(id);
     classBox.appendChild(objA);
 }
-
-function displayBands(bands) {
-    bands.forEach(band => {
-        const bandElement = document.createElement('div');
+function createItem(band){
+    const bandElement = document.createElement('div');
         bandElement.classList.add('artist');
         bandElement.innerHTML = `
             <img src="${band.icon || noneImg}" alt="${band.name || 'missing'}">
+            <a href="band.html">fds</a>
             <p>${band.bandName || 'missing'}</p>
         `;
-        idObj('band-container', bandElement);
-    });
-    
+    /*const carouselItem = document.createElement("li");
+    carouselItem.classList.add("carousel-item");
+    carouselItem.style = `--_index: ${index + 1}; --_image-url: url('${band.icon}')`;
 
+    const carouselItemLink = document.createElement("a");
+    carouselItemLink.target="_blank";
+
+    carouselItem.onclick = () => {
+        window.location.href = `band.html?id=${band.id}`;
+    };
+
+    carouselItem.appendChild(carouselItemLink);
+
+return carouselItem;*/
+return bandElement;
+}
+
+function displayBands(bands) {
+    bands.forEach(band => {
+        const item = createItem(band);
+        idObj('band-container', item);
+    });
 }
 
 const randomBands = getRandomBands(band, 4);
