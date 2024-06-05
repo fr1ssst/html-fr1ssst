@@ -16,27 +16,24 @@ function idObj(id, objA) {
 }
 function createItem(band){
     const bandElement = document.createElement('div');
-        bandElement.classList.add('artist');
-        bandElement.innerHTML = `
-            <img src="${band.icon || noneImg}" alt="${band.name || 'missing'}">
-            <a href="band.html">fds</a>
-            <p>${band.bandName || 'missing'}</p>
-        `;
-    /*const carouselItem = document.createElement("li");
-    carouselItem.classList.add("carousel-item");
-    carouselItem.style = `--_index: ${index + 1}; --_image-url: url('${band.icon}')`;
+    bandElement.classList.add('artist');
 
-    const carouselItemLink = document.createElement("a");
-    carouselItemLink.target="_blank";
+    const linkElement = document.createElement('a');
+    linkElement.href = 'band.html';
+    linkElement.target = '_blank';
 
-    carouselItem.onclick = () => {
-        window.location.href = `band.html?id=${band.id}`;
-    };
+    const imageElement = document.createElement('img');
+    imageElement.src = band.icon || noneImg;
+    imageElement.alt = band.name || 'missing';
+    linkElement.appendChild(imageElement);
 
-    carouselItem.appendChild(carouselItemLink);
+    bandElement.appendChild(linkElement);
 
-return carouselItem;*/
-return bandElement;
+    const nameBand = document.createElement('p');
+    nameBand.textContent = band.bandName || 'missing';
+    bandElement.appendChild(nameBand);
+
+    return bandElement;
 }
 
 function displayBands(bands) {
