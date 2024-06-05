@@ -39,12 +39,12 @@ function displaySongs(songs) {
                     <h2>${song.name || 'missing'}</h2>
                     <p>${song.bandName || 'missing'}</p>
                 </div>
-                <span>4:33</span>
+                <span>${formatDuration(song.duration)}</span>
         `;
             idObj('song-container', songElement);
         })
 }
 
-const randomSongs = getRandomSongs(band, 9);
+const randomSongs = getRandomSongs(band, 3);
 console.log(randomSongs);
 displaySongs(randomSongs);

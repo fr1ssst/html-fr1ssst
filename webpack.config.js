@@ -6,6 +6,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+    logIn: ['@babel/polyfill', path.resolve(__dirname, 'src', 'formLogIn.js')]
   },
   output:{
     path: path.resolve(__dirname, 'build'),
@@ -23,6 +24,11 @@ module.exports = {
       filename: 'index.html',
       template: './public/index.html',
       chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'logIn.html',
+      template: './public/logIn.html',
+      chunks: ['logIn']
     }),
     new MiniCssExtractPlugin({
       filename: 'css/[contenthash:8].css',//Downloading css files to the css folder when building the project
