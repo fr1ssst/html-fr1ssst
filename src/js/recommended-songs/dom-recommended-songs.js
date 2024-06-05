@@ -4,11 +4,9 @@ function idObj(idObj, objA){
 }
 
 const recommendedSongs = document.createElement('div');
+recommendedSongs.className = 'recommended-songs';
 recommendedSongs.innerHTML = `
-<div class="recommended-songs">
-<h1>Recommended Songs</h1>
-<div class="song-container" id="song-container">
-  
-</div>
-</div>`;
+    <h1>Recommended Songs</h1>
+        <div class="song-container" id="song-container">
+        </div>`;
 idObj("right-content", recommendedSongs);

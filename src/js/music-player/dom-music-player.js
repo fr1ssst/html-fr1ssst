@@ -4,9 +4,8 @@ function idObj(idObj, objA){
 }
 
 const musicPlayer = document.createElement('div');
+musicPlayer.className = 'music-player';
 musicPlayer.innerHTML = `
-<div class="musicPlayer-box">
-<div class="music-player">
   <nav>
     <button class="button-new-song"><i class="fa-solid fa-plus"></i> Add song</button>
   </nav>
@@ -36,8 +35,6 @@ musicPlayer.innerHTML = `
       </button>
     </div>
   </div>
-</div>
-</div>
 `;
 
 idObj("right-content", musicPlayer);
