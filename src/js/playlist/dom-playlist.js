@@ -63,3 +63,31 @@ playlist.innerHTML = `
   <div class="swiper-pagination"></div>
 </div>`;
 idObj("left-content", playlist);
+
+const swiperScript = document.createElement('script');
+swiperScript.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
+swiperScript.onload = function() {
+    // Initialize Swiper after the script is loaded
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+};
+document.head.appendChild(swiperScript);

@@ -19,8 +19,11 @@ function createItem(band){
     bandElement.classList.add('artist');
 
     const linkElement = document.createElement('a');
-    linkElement.href = 'band.html';
-    linkElement.target = '_blank';
+
+    linkElement.onclick = () => {
+        window.location.href = `band.html?id=${band.id}`;
+        window.location.target = '_blank';
+    };
 
     const imageElement = document.createElement('img');
     imageElement.src = band.icon || noneImg;
