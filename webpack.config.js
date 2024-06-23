@@ -40,7 +40,6 @@ module.exports = {
       filename: 'css/[contenthash:8].css',//Downloading css files to the css folder when building the project
       chunkFilename: 'css/[contenthash:8].css',//Downloading css chunkFile to the css folder when building the project
     }),
-
   ],
   module: {
     rules: [
